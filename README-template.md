@@ -13,8 +13,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
+- 
 
 ## Overview
 
@@ -26,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/used-grid-layout-for-desktop-and-flexbox-for-mobile-dRoNAKUeL)
+- [Live Site URL](https://rich15.github.io/testimonials-grid-fEndMentor/)
 
 
 ## My process
@@ -41,28 +40,27 @@ Users should be able to:
 
 ### What I learned
 
+**This is my third Frontend Mentor challenge!**
 
+I started as usual, building the HTML structure. Once finished I continued styling everything. I already knew that I was going to use a Grid layout, I just needed to recap the grid properties (see [Useful resources](#useful-resources)). I was struggling with the height of the items and their content, but using `grid-gap` and `padding` helped me to solve it.   
+
+After finishing the desktop design, I used media queries to style the mobile version. It was very easy, I just changed the grid layout for a Flexbox one (in columns), and adjusted some images; I also added a little shadow to the items.  
+
+This challenge was fun and easy, I really enjoyed practicing my Grid skills, and now I feel more comfortable using it :)
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Grid layouts are awesome, so I want to master Grid and Flexbox to make some pretty websites.  
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will probably do some JS next.
 
 ### Useful resources
 
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This guide was a great resource to review all the Grid properties when I needed.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Rich15](https://www.frontendmentor.io/profile/Rich15)
 - Twitter - [@rich_osio](https://www.twitter.com/rich_osio)
-
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
