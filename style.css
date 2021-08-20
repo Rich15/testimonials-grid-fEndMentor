@@ -14,7 +14,7 @@ body {
   }
 
 
-  h6 {
+  h5 {
     font-size: 1rem;
     font-weight: 600;
     display: inline-block;
@@ -22,7 +22,7 @@ body {
     margin-bottom: 0;
   }
 
-    h6 p {
+    h5 h6 {
       font-weight: 500;
       color: hsla(0, 0%, 100%, 0.5);
     }
@@ -79,7 +79,7 @@ body {
       color: hsl(219, 29%, 14%);
     }
       
-      .jeanette h6 p, .kira h6 p {
+      .jeanette h5 h6, .kira h5 h6 {
         color: hsla(219, 29%, 14%, 0.5);
       }
 
