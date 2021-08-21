@@ -83,7 +83,7 @@ body {
           color: hsla(219, 29%, 14%, 0.5);
         }
 
-        .jeanette quote, .kira quote {
+        .jeanette .quote, .kira .quote {
           color: hsla(219, 29%, 14%, 0.7);
         }
 
