@@ -13,20 +13,6 @@ body {
     z-index: 2;
   }
 
-
-  h6 {
-    font-size: 1rem;
-    font-weight: 600;
-    display: inline-block;
-    line-height: 0.2;
-    margin-bottom: 0;
-  }
-
-    h6 p {
-      font-weight: 500;
-      color: hsla(0, 0%, 100%, 0.5);
-    }
-
    
   .container {
     display: grid;
@@ -66,64 +52,78 @@ body {
       z-index: 0;
     }
 
-      .item p {
+      .quote {
         color: hsla(0, 0%, 100%, 0.7);
       }
 
-
-    .daniel, .jonathan, .patrick {
-      color:hsl(0, 0%, 100%);
-    }
-
-    .jeanette, .kira {
-      color: hsl(219, 29%, 14%);
-    }
-      
-      .jeanette h6 p, .kira h6 p {
-        color: hsla(219, 29%, 14%, 0.5);
+      .name {
+        font-size: 1rem;
+        font-weight: 600;
+        display: inline-block;
+        line-height: 1.2;
+        margin-bottom: 0;
       }
 
-      .jeanette p, .kira p {
-        color: hsla(219, 29%, 14%, 0.7);
+        .name span {
+          display: inline-block;
+          font-weight: 500;
+          color: hsla(0, 0%, 100%, 0.5);
+        }
+
+
+      .daniel, .jonathan, .patrick {
+        color:hsl(0, 0%, 100%);
       }
 
-    .daniel {
-      grid-area: daniel;
-      background-color: hsl(263, 55%, 52%);
-    }
-
-      .daniel .pic {
-        border: solid 0.7px hsl(0, 0%, 100%);
+      .jeanette, .kira {
+        color: hsl(219, 29%, 14%);
       }
 
-    .jonathan {
-      grid-area: jonathan;
-      background-color: hsl(217, 19%, 35%);
+        .jeanette .name span, .kira .name span {
+          color: hsla(219, 29%, 14%, 0.5);
+        }
 
-    }
+        .jeanette quote, .kira quote {
+          color: hsla(219, 29%, 14%, 0.7);
+        }
 
-    .jeanette {
-      grid-area: jeanette; 
-      background-color: hsl(0, 0%, 100%);
-    }
-
-      .jeanette h4 {
-        white-space: pre-line;
+      .daniel {
+        grid-area: daniel;
+        background-color: hsl(263, 55%, 52%);
       }
 
-    .patrick {
-      grid-area: patrick;
-      background-color: hsl(219, 29%, 14%);
-    }
+        .daniel .pic {
+          border: solid 0.7px hsl(0, 0%, 100%);
+        }
 
-      .patrick .pic {
-        border: solid 0.7px hsl(263, 55%, 52%);
+      .jonathan {
+        grid-area: jonathan;
+        background-color: hsl(217, 19%, 35%);
+
       }
 
-    .kira {
-      grid-area: kira;
-      background-color: hsl(0, 0%, 100%);
-    }
+      .jeanette {
+        grid-area: jeanette; 
+        background-color: hsl(0, 0%, 100%);
+      }
+
+        .jeanette h4 {
+          white-space: pre-line;
+        }
+
+      .patrick {
+        grid-area: patrick;
+        background-color: hsl(219, 29%, 14%);
+      }
+
+        .patrick .pic {
+          border: solid 0.7px hsl(263, 55%, 52%);
+        }
+
+      .kira {
+        grid-area: kira;
+        background-color: hsl(0, 0%, 100%);
+      }
 
 
 
